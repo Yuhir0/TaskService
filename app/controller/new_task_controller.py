@@ -1,5 +1,5 @@
 from configuration.config import app
-from constants import http_method
+from app.constants import http_method
 
 
 @app.route("/task", method=http_method.PUT)

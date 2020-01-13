@@ -2,7 +2,7 @@ from flask import Flask
 
 from configuration import config
 from configuration.config_loader import load_configuration
-from constants import config_keys
+from app.constants import config_keys
 
 
 def _main():
